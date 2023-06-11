@@ -77,7 +77,7 @@
               datepicker.setAttribute('min', today);
             </script>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <h3 class="booking-title">Select a Time Slot</h3>
             <div class="list-group">
               <label class="list-group-item">
@@ -92,13 +92,19 @@
                 <input type="radio" name="timeslot" value="slot3">
                 Time Slot 3
               </label>
-              <!-- Add more time slots as needed -->
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-end">
-          <button type="submit" class="btn btn-dark" onclick="window.location.href = 'book-dtl.html'">Next</button>
+
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-start">
+            <button type="submit" class="btn btn-outline-dark" onclick="window.location.href = 'book-srv.html'">Back</button>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <button type="submit" class="btn btn-dark" onclick="window.location.href = 'book-dtl.html'">Next</button>
+          </div>
         </div>
+        
       </div>
   </main>
 
