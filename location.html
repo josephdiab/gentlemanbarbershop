@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gentleman Barbershop</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-background nav-custom">
+      <div class="container">
+        <a class="navbar-brand" href="../home.html"> <img src="/assets/logo.jpeg" alt="logo" width="60" height="60"> The Gentleman Barbershop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../barbers.html">Barbers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../location.html">Location</a>
+            </li>
+            <li class="nav-item">
+              <button onclick="window.location.href = 'book-srv.html'" class="btn btn-light my-2 my-sm-0">Book Now</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container pt-5 pb-4" id="location">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 style="font-weight: bold;">Where to find <span style="color: #000;">The Gentleman Barbershop</span></h1>
+        </div>
+
+        <div class="col-md-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.779525339537!2d2.156670876519062!3d41.37887459652251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a357358bf335%3A0x4fd716d41b6e66e2!2sThe%20Gentleman%20Barbershop%20%7C%20Barberia%20Barcelona!5e0!3m2!1sen!2sca!4v1686159913071!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container-fluid">
+
+        <div class="mt-3 ">
+            <h3 class="text-center fw-bold">Want to book your next appointment?</h3>
+            <p class="text-center">Click the button below to schedule your haircut with our talented barbers, <br> and experience a fresh, 
+              stylish look that suits your unique personality.</p>
+            <center><button class="btn btn-block btn-outline-light">Book Now</button></center>
+            <hr>
+        </div>
+
+        <div class="row justify-content-around text-center text-md-start">
+
+            <div class="col-md-2 text-center">
+                <h1 class="fw-bold mt-3 ">GB</h1>
+                <h4>Gentleman Barbershop</h4>
+            </div>
+            
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li class="fw-bold my-2">About</li>
+                    <li> <a href="../services.html" class="text-decoration-none text-white">Services</a> </li>
+                    <li> <a href="../barbers.html" class="text-decoration-none text-white">Barbers</a> </li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                  <li class="fw-bold my-2">Our Address</li>
+                  <li> <a href="../location.html" class="text-decoration-none text-white">C. de Floridablanca, 88, 08015</a> </li>
+                  <li> <a href="../location.html" class="text-decoration-none text-white">Barcelona, Spain</a> </li>
+              </ul>
+          </div>
+
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li class="fw-bold my-2">Contact us</li>
+                    <li> <a class="text-decoration-none text-white"> Phone : (613) 235-8475</a> </li>
+                    <li> <a href="mailto:gentlemanbarbershop@gmail.com" class="text-decoration-none text-white"> Email : gentlemanbarbershop</a> </li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                  <li class="fw-bold my-2">Hours</li>
+                  <li> <a class="text-decoration-none text-white text-uppercase">Mon-sat : 09AM - 07PM</a> </li>
+                  <li> <a class="text-decoration-none text-white text-uppercase">Sun : closed</a> </li>
+              </ul>
+            </div>
+
+            
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center pt-2">
+                <p>&copy; 2023 Copyright <a href="#" class="text-white">The Gentleman Barbershop</a></p>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+  <!-- Include Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Include Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+</html>
